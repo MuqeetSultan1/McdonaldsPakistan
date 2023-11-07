@@ -1,0 +1,345 @@
+  .App {
+    text-align: center;
+  }
+
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .App-link {
+    color: #61dafb;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  .Menucontainer1{
+    display: flex;
+    /* background-color: lightblue; */
+    height: 120px;
+    width: 100%;
+    /* border: 1px 1px 1px gray; */
+    border: 1px solid lightgray;
+  }
+  .row1{
+    /* flex-direction: row; */
+    /* background-color: rgb(190, 233, 233); */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .col1{
+    background-color: rgb(212, 50, 50);
+    width: 50px;
+  }
+  .col2{
+    /* display: inline-block; */
+    /* background-color: #616bfb; */
+    /* padding-left: -10px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 125px;
+  }
+  .col3{
+    /* display: inline-block; */
+    width: 840px;
+    /* background-color: aquamarine; */
+    /* text-align: center; */
+    justify-items: center;
+  }
+  /* .col4{
+    background-color: rgb(150, 27, 150);
+    width: 200px;
+    height: 80px;
+  }  */
+  /* .col5{
+    background-color: rgb(20, 68, 199);
+  } */
+  body{
+    margin: 0px;
+    padding-right: 0px;
+  }
+  /* .col3div1{
+    background-color: #a3a6d4;
+  } */
+  .col3div2{
+    width: 110px;
+    /* background-color: lightgreen; */
+    /* padding-right: 50px; */
+  }
+  .col3div3{
+    width: 420px;
+    /* background-color: #61dafb; */
+  }
+  .col3div5{
+    width: 120px;
+    /* background-color: #2f39c9; */
+  }
+  .col3div4{
+    width: 120px;
+  }
+  a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+  }
+  .ourmenu{
+    position: relative;
+    display: inline;
+    width: 120px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .drop-down{
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    align-items: baseline;
+    display: none;
+    height: 400px;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    width: 900px;
+    background-color: white;
+    margin-top: 50px;
+    z-index: +1;
+    transition: 0.2s;
+    display: flex; /* Display the items in a row */
+     flex-wrap: wrap; /* Allow the items to wrap to the next row if needed */
+    justify-content: flex-start;
+
+  }
+  .ourmenu:hover .drop-down{
+    display: inline-flex;
+    border: 1px solid gray;
+    opacity: 1;
+    visibility: visible;
+  }
+  .drop-down p {
+    /* display: block;
+    padding: 100px; */
+    margin: 5px 0;
+  }
+  .drop-down div {
+    margin: 20px; /* Add some spacing between the items */
+  display: inline-block;
+  }
+  /* .menuh6{
+    display: inline;
+  } */
+  .secondmenu{
+    /* background-color: #61dafb; */
+    width: 720px;
+  }
+  /* .footerptag2{
+    background-color: #61dafb;
+    margin-top: -10px;
+    cursor: pointer;
+
+  } */
+  .footerptag2:hover{
+    color: black;
+  }
+  /* .footerptag1{
+    background-color: aqua;
+    cursor: pointer;
+  } */
+  .footerptag1:hover{
+    color: black;
+  }
+  /* Link:hover{
+    color: black;
+  } */
+  .row1col2{
+    text-align: left;
+    /* background-color: #61dafb; */
+    width: 300px;
+  }
+  .rowh6{
+    font-weight: bold;
+  }
+  .row2col2{
+    /* background-color: #61dafb; */
+    text-align: left;
+  }
+  .rowcursor{
+    cursor: pointer;
+  }
+  .footerborder{
+    border-top: 1px solid lightgray;
+    /* background-color: aqua; */
+    height: 15px;
+  }
+  .row4col2{
+    width: 355px;
+    /* background-color: #61dafb; */
+  }
+  .card{
+    /* width: 400px; */
+    height: 450px;
+  }
+  .cardcontainer{
+    display: flex;
+  }
+  .cardcontainer2{
+    display: flex;
+    margin-bottom: 100px;
+  }
+  .contactdiv{
+    display: flex;
+    margin-left: 300px;
+    /* text-align: center; */
+  }
+  .card-img-top{
+    width: 322px;
+    text-align: center;
+    margin-left: 0px;
+    /* padding-left: 0px; */
+  }
+  .privacydiv{
+    display: flex;
+  }
+ .privacycol2{
+  /* background-color: #61dafb; */
+  margin-left: 110px;
+ }
+
+ .logo{
+  cursor: pointer;
+ }
+ .breakfastcontainer{
+  height: 100%;
+  width: 100%;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* background-color: #61dafb; */
+ }
+ .breakfastrowcol2{
+  /* background-color: aqua !important;
+  z-index: +2;
+  width: 100%; */
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+ }
+ /* .breakfastrow{
+  display: flex;
+ } */
+
+ .checkout {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* body{
+  margin-top:20px;
+  background-color: #f1f3f7;
+} */
+.checkoutpagefirstdiv{
+  margin-top:20px;
+  background-color: #f1f3f7;
+}
+.avatar-lg {
+  height: 5rem;
+  width: 5rem;
+}
+
+.font-size-18 {
+  font-size: 18px!important;
+}
+
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none!important;
+}
+
+.w-xl {
+  min-width: 160px;
+}
+
+.card {
+  margin-bottom: 24px;
+  -webkit-box-shadow: 0 2px 3px #e4e8f0;
+  box-shadow: 0 2px 3px #e4e8f0;
+}
+
+.card {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid #eff0f2;
+  border-radius: 1rem;
+  height:auto;
+}
